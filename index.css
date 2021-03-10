@@ -2,13 +2,16 @@ body{
     background-color: pink;
     color: salmon;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 #container{
-    width:30%;
-    height: 200px;
+    width:40%;
+    height: 300px;
     background-color: white;
-    padding: 80px;
-    margin:auto
+    padding: 50px;
+    margin:auto;
+    border:inset
 }
 #btn{
     background-color: salmon;
@@ -22,4 +25,11 @@ body{
 img{
     width:100%;
     height:100%;
+    border: outset;
+}
+@media screen and (max-width: 800px) {
+    #container{
+        width: 90%;
+        padding: 20px;
+    }
 }
