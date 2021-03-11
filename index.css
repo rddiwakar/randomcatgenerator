@@ -13,7 +13,7 @@ body{
     margin:auto;
     border:inset
 }
-#btn{
+.btn{
     background-color: salmon;
     padding: 3px 15px 3px 15px;
 }
@@ -31,5 +31,8 @@ img{
     #container{
         width: 90%;
         padding: 20px;
+    }
+    .btn{
+        padding: 10px 20px;
     }
 }
